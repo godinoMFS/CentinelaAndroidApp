@@ -34,12 +34,14 @@
         android:id="@+id/Button03"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:onClick="lanzarAcercaDe"
         android:text="@string/acercade" />
 
     <Button
         android:id="@+id/Button04"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:onClick="finish"
         android:text="@string/salir" />
 
 </LinearLayout>
