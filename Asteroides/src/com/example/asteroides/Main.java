@@ -26,4 +26,8 @@ public class Main extends Activity {
 		startActivity(i);
 	}
 
+	public void lanzarSalir() {
+		finish();
+	}
+
 }
