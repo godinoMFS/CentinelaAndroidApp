@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="preferencias_principal" >
+
+    <CheckBoxPreference
+        android:key="musica"
+        android:summary="Se reproduce musica de fondo"
+        android:title="Reproducir Musica" />
+
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/tiposGraficos"
+        android:entryValues="@array/tiposGraficosValores"
+        android:key="graficos"
+        android:summary="Se escoge la representacion de graficos"
+        android:title="Tipo de Graficos" />
+
+    <EditTextPreference
+        android:defaultValue="3"
+        android:key="fragmentos"
+        android:summary="En cuantos trozos se divide un asteroide"
+        android:title="Numero de Fragmentos" />
+
+    <PreferenceCategory
+        android:key="multijugador"
+        android:title="Modo multijugador" >
+        <CheckBoxPreference
+            android:key="activar_multijugador"
+            android:summary="Activa el modo Multijugador"
+            android:title="Activar Multijugador" />
+
+        <EditTextPreference
+            android:defaultValue="2"
+            android:key="jugadores"
+            android:summary="Numero de Jugadores"
+            android:title="Jugadores" />
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/tiposConexiones"
+            android:entryValues="@array/tiposConexionesValores"
+            android:key="conexion"
+            android:summary="Se escoge el tipo de conexion multijugador"
+            android:title="Tipo de Conexiones" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

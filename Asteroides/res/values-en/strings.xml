@@ -5,7 +5,7 @@
     <string name="Arrancar">Start</string>
     <string name="Configurar">Settings</string>
     <string name="Acercade">About us..</string>
-    <string name="Salir">Exit</string>
+    <string name="Puntuaciones">Scores</string>
     <string name="action_settings">Settings</string>
 
 </resources>

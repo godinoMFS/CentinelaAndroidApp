@@ -1,9 +1,19 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
 
     <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:showAsAction="never"
-        android:title="@string/action_settings"/>
+        android:id="@+id/config"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="@string/Configurar">
+    </item>
+    <item
+        android:id="@+id/AcercaDe"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="@string/Acercade">
+    </item>
+    <item
+        android:id="@+id/Button04"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="@string/Puntuaciones">
+    </item>
 
 </menu>
